@@ -7,17 +7,17 @@ import logging
 
 class Config:
     
-    API_ID = int(os.environ.get("API_ID", 12345))
-    API_HASH = os.environ.get("API_HASH")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
+    API_ID = int(os.environ.get("API_ID", 1813445))
+    API_HASH = os.environ.get("API_HASH", "8f45dabd56be5ad1619df16af9eca560")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "1814556125:AAECWxWpUYXCRIb18CbhLuWkDh9_4zktv38") 
     BOT_SESSION = os.environ.get("BOT_SESSION", "bot") 
-    CAPTION = os.environ.get("CAPTION", "")
-    FROM_CHANNEL = os.environ.get("FROM_CHANNEL", None)
+    CAPTION = os.environ.get("CAPTION", "iruPC.net")
+    FROM_CHANNEL = os.environ.get("FROM_CHANNEL", "@MovieClub_Movies")
     FILTER_TYPE = os.environ.get("FILTER_TYPE", "")
-    OWNER_ID = os.environ.get("OWNER_ID", 12345)
+    OWNER_ID = os.environ.get("OWNER_ID", 1177233175)
     LIMIT = int(os.environ.get("LIMIT", "25000"))
     SKIP_NO = int(os.environ.get("SKIP_NO", "0"))
-    SESSION = os.environ.get("SESSION")
-    TO_CHANNEL = int(os.environ.get("TO_CHANNEL", 12345))
+    SESSION = os.environ.get("SESSION", "BQA8GfmFX3qB0OgAfsWU5UoNI6yQgEVpT4d1yEqKg-lFYHaUpUJf30ygWjjsU_nuOSSXyWJ4BAjQ_0IRYoI0bXcbhzr6CnMQoXmMN9vmqMX1fwQgRTUqrT2qc75SI8KEj4V1USwevA0y3YZkAbDlJacASiZ2PdFT1aunDUg41sGs46_7LzhkviSHNrxE_1MtlzMeDm1DeQB7x_gtIBOiPohUeV8XPyIWtLUVLGNyci-dL_p3rFNmymB6HOB7LrKbP52vvQAVZWEsVdkV328gNB6ETNY4FZ1WxAI-7WZdfuuBFFgujTH4utu0HcYnOqI2WhK9SgHpfcSDUHcFVWSqxB8wU2K9uQA")
+    TO_CHANNEL = int(os.environ.get("TO_CHANNEL", -1001404974777))
 def LOGGER(name: str) -> logging.Logger:
     return logging.getLogger(name)
