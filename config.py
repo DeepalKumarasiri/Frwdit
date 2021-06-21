@@ -14,7 +14,7 @@ class Config:
     CAPTION = os.environ.get("CAPTION", "━🇱🇰━◤ <b>iruPC.net</b> ◢━🇱🇰━\n ☯️ <b>@iruPC</b>\n ☯️ <b>@MoIndex</b>\n ☯️ <b>@Top_Movie_Links</b>\n ☯️ <b>@iruPcLinks</b>\n━🇱🇰━◤ <b>iruPC.net</b> ◢━🇱🇰━")
     FROM_CHANNEL = os.environ.get("FROM_CHANNEL", "@MovieClub_Movies")
     FILTER_TYPE = os.environ.get("FILTER_TYPE", "")
-    OWNER_ID = os.environ.get("OWNER_ID", 1177233175)
+    OWNER_ID = os.environ.get("OWNER_ID", "1177233175")
     LIMIT = int(os.environ.get("LIMIT", "25000"))
     SKIP_NO = int(os.environ.get("SKIP_NO", "0"))
     SESSION = os.environ.get("SESSION", "BQA8GfmFX3qB0OgAfsWU5UoNI6yQgEVpT4d1yEqKg-lFYHaUpUJf30ygWjjsU_nuOSSXyWJ4BAjQ_0IRYoI0bXcbhzr6CnMQoXmMN9vmqMX1fwQgRTUqrT2qc75SI8KEj4V1USwevA0y3YZkAbDlJacASiZ2PdFT1aunDUg41sGs46_7LzhkviSHNrxE_1MtlzMeDm1DeQB7x_gtIBOiPohUeV8XPyIWtLUVLGNyci-dL_p3rFNmymB6HOB7LrKbP52vvQAVZWEsVdkV328gNB6ETNY4FZ1WxAI-7WZdfuuBFFgujTH4utu0HcYnOqI2WhK9SgHpfcSDUHcFVWSqxB8wU2K9uQA")
