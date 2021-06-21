@@ -11,7 +11,7 @@ class Config:
     API_HASH = os.environ.get("API_HASH", "8f45dabd56be5ad1619df16af9eca560")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "1814556125:AAECWxWpUYXCRIb18CbhLuWkDh9_4zktv38") 
     BOT_SESSION = os.environ.get("BOT_SESSION", "bot") 
-    CAPTION = os.environ.get("CAPTION", "━🇱🇰━◤ <b>iruPC.net</b> ◢━🇱🇰━\n ☯️ <b>@iruPC</b>\n ☯️ <b>@MoIndex</b>\n ☯️ <b>@Top_Movie_Links</b>\n ☯️ <b>@iruPcLinks</b>\n━🇱🇰━◤ <b>iruPC.net</b> ◢━🇱🇰━")
+    CAPTION = os.environ.get("CAPTION", "━🇱🇰━◤ **iruPC.net** ◢━🇱🇰━\n ☯️ **@iruPC**\n ☯️ **@MoIndex**\n ☯️ **@Top_Movie_Links**\n ☯️ <b>@iruPcLinks**\n━🇱🇰━◤ **iruPC.net** ◢━🇱🇰━")
     FROM_CHANNEL = os.environ.get("FROM_CHANNEL", "@MovieClub_Movies")
     FILTER_TYPE = os.environ.get("FILTER_TYPE", "document")
     OWNER_ID = os.environ.get("OWNER_ID", "1177233175")
