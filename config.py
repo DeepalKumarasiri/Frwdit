@@ -13,7 +13,7 @@ class Config:
     BOT_SESSION = os.environ.get("BOT_SESSION", "bot") 
     CAPTION = os.environ.get("CAPTION", "━🇱🇰━◤ <b>iruPC.net</b> ◢━🇱🇰━\n ☯️ <b>@iruPC</b>\n ☯️ <b>@MoIndex</b>\n ☯️ <b>@Top_Movie_Links</b>\n ☯️ <b>@iruPcLinks</b>\n━🇱🇰━◤ <b>iruPC.net</b> ◢━🇱🇰━")
     FROM_CHANNEL = os.environ.get("FROM_CHANNEL", "@MovieClub_Movies")
-    FILTER_TYPE = os.environ.get("FILTER_TYPE", "")
+    FILTER_TYPE = os.environ.get("FILTER_TYPE", "document")
     OWNER_ID = os.environ.get("OWNER_ID", "1177233175")
     LIMIT = int(os.environ.get("LIMIT", "25000"))
     SKIP_NO = int(os.environ.get("SKIP_NO", "0"))
