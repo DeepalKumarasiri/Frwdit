@@ -19,6 +19,6 @@ class Config:
     SKIP_NO = int(os.environ.get("SKIP_NO", "0"))
     SESSION = os.environ.get("SESSION", "BQA8GfmFX3qB0OgAfsWU5UoNI6yQgEVpT4d1yEqKg-lFYHaUpUJf30ygWjjsU_nuOSSXyWJ4BAjQ_0IRYoI0bXcbhzr6CnMQoXmMN9vmqMX1fwQgRTUqrT2qc75SI8KEj4V1USwevA0y3YZkAbDlJacASiZ2PdFT1aunDUg41sGs46_7LzhkviSHNrxE_1MtlzMeDm1DeQB7x_gtIBOiPohUeV8XPyIWtLUVLGNyci-dL_p3rFNmymB6HOB7LrKbP52vvQAVZWEsVdkV328gNB6ETNY4FZ1WxAI-7WZdfuuBFFgujTH4utu0HcYnOqI2WhK9SgHpfcSDUHcFVWSqxB8wU2K9uQA")
     TO_CHANNEL = int(os.environ.get("TO_CHANNEL", -1001404974777))
-    REPLACE_USER_NAME = os.environ.get("REPLACE_USER_NAME", "@WMR_ @gatayaofficialnew @gatayaofficial @gataya @MovieWorld2000 @MovieWorld2001 @cinemahubsl @WEB_SERIES_SL @WMR_ @CC_New @iMediaShare @TvSeriesBay @CC_ALL @CC_X265 @CC @x265SL @GlinkZ @GlinkZFilms @GlinkZGroup @GlinkZmovies @BM_Links @RickyChannel @Dramaost @lubokvideo")
+    REPLACE_USER_NAME = os.environ.get("REPLACE_USER_NAME", "@WMR_")
 def LOGGER(name: str) -> logging.Logger:
     return logging.getLogger(name)
