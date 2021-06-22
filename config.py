@@ -18,7 +18,7 @@ class Config:
     LIMIT = int(os.environ.get("LIMIT", "25000"))
     SKIP_NO = int(os.environ.get("SKIP_NO", "0"))
     SESSION = os.environ.get("SESSION", "BQCQe1CkIDHWooV4l2qpm1Fwrx55ALrYNph9UZ0ZNwnYzCpkg9TVm9vSs0drnl70ras3kI1fREU1ea69yjxXOu0lRUUnflf_QbTdOisIK9Fq64qxgyntxjsZWga-lE6lxs9F6MciOT3sPe02ZCxAhQunRsLMs2n54ibZG_lsEOwvTu0iYk4bDxxiccfr4WOzXrgOqHMZ52zK-HjNadybtti3Rm-sO126iwU1-ftYm7c2_8pCBgPDwzqhLkhEDKnLKJvdxDCIUpnnu7PN5YWLKL3b4_wPEV4IH1rMAW74_40H3c7ym2CRQg2yCt_WdNd-As_PWGwb9nom2bPEAzciNTK7RisnFwA")
-    TO_CHANNEL = int(os.environ.get("TO_CHANNEL", -1001404974777))
+    TO_CHANNEL = int(os.environ.get("TO_CHANNEL", -1001286173709))
     REPLACE_USER_NAME = os.environ.get("REPLACE_USER_NAME", "@WMR_")
 def LOGGER(name: str) -> logging.Logger:
     return logging.getLogger(name)
