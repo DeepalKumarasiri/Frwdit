@@ -12,7 +12,7 @@ class Config:
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "1814556125:AAECWxWpUYXCRIb18CbhLuWkDh9_4zktv38") 
     BOT_SESSION = os.environ.get("BOT_SESSION", "bot") 
     CAPTION = os.environ.get("CAPTION", "♨️ **Join our Groups** 👇\n━🇱🇰━◤ **iruPC.net** ◢━🇱🇰━\n ☯️ **@iruPC**\n ☯️ **@MoIndex**\n ☯️ **@Top_Movie_Links**\n━🇱🇰━◤ **iruPC.net** ◢━🇱🇰━")
-    FROM_CHANNEL = os.environ.get("FROM_CHANNEL", "@thalapathyvijaygatayaoffical")
+    FROM_CHANNEL = os.environ.get("FROM_CHANNEL", "@vijaysethupathigatayaofficial")
     FILTER_TYPE = os.environ.get("FILTER_TYPE", "document")
     OWNER_ID = os.environ.get("OWNER_ID", "1177233175")
     LIMIT = int(os.environ.get("LIMIT", "25000"))
