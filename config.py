@@ -9,7 +9,7 @@ class Config:
     
     API_ID = int(os.environ.get("API_ID", 1813445))
     API_HASH = os.environ.get("API_HASH", "8f45dabd56be5ad1619df16af9eca560")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "1814556125:AAECWxWpUYXCRIb18CbhLuWkDh9_4zktv38") 
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "1799130880:AAHkCLE7g5MySb9Sqm_J6hQDZYBXQNvbJiY") 
     BOT_SESSION = os.environ.get("BOT_SESSION", "bot") 
     CAPTION = os.environ.get("CAPTION", "♨️ **Join our Groups** 👇\n━🇱🇰━◤ **iruPC.net** ◢━🇱🇰━\n ☯️ **@iruPC**\n ☯️ **@MoIndex**\n ☯️ **@Top_Movie_Links**\n━🇱🇰━◤ **iruPC.net** ◢━🇱🇰━")
     FROM_CHANNEL = os.environ.get("FROM_CHANNEL", "@Rickychanel")
